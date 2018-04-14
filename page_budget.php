@@ -1,4 +1,10 @@
-<?php get_header(); ?>
+<?php get_header(); 
+
+/*
+Template Name: Budget Site Template
+*/
+
+?>
 
 <?php
     $style_classes = array("container", "extra-padding");
