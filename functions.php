@@ -26,3 +26,4 @@
     add_theme_support( 'post-formats', array( 'aside', 'image', 'video') );
 
     set_post_thumbnail_size( 150, 150, false );
+    add_image_size( 'special-thumbnail', 300, 300, false );

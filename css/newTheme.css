@@ -5,6 +5,10 @@ body {
 	color: #333;
 }
 
+h3{
+	margin-bottom: 0.5em;
+}
+
 p {
 	line-height 1.65em;
 }
@@ -16,12 +20,12 @@ a:visited {
 
 div.container {
 	margin: 0 auto;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 div.extra-padding {
-    padding-top: 20px;
+    padding-top: 2em;
 }
 
 .title a{
@@ -42,15 +46,15 @@ div.extra-padding {
 
 /*Footer*/
 .site-footer {
-	margin-top: 30px;
-	padding-left: 20px;
-	padding-right: 20px;
+	margin-top: 1.5em;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 /*Header*/
 .site-header {
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 /*Site Menus*/
@@ -68,7 +72,7 @@ div.extra-padding {
 
 /*Header/Primary Menu*/
 .site-header nav ul li {
-	margin-right: 5px;
+	margin-right: 0.5em;
 }
 .site-header nav ul li a:link,
 .site-header nav ul li a:visited {
@@ -92,4 +96,9 @@ div.extra-padding {
 	margin-right: 10px;
 	padding-right: 10px;
 	border-right: 1px dotted #bbb
+}
+
+/*Post Formats*/
+.thumbnail-img{
+	padding-top: 10px;
 }
