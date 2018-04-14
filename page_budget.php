@@ -1,4 +1,4 @@
-<?php get_header(); 
+<?php get_header();
 
 /*
 Template Name: Budget Site Template
@@ -6,18 +6,14 @@ Template Name: Budget Site Template
 
 ?>
 
-<?php
-    $style_classes = array("container", "extra-padding");
-?>
+<div class ="container extra-padding">
 
-<div class ="container extra-padding">  
-    
-    <input id = "in" type="text"> 
+    <input id = "in" type="text">
     <button type="button" onclick="myFunction()">create new budget</button>
     <p id="demo">this is a test</p>
-    
+
     <hr>
-    
+
 </div>
 
 

@@ -1,6 +1,6 @@
 <footer class="site-footer">
     <p>Footer Menu</p>
-    
+
     <nav class="site-nav">
 		<?php
 			$args = array(
